@@ -15,24 +15,15 @@ body {
     flex-direction: column;
   }
 
-
 .content {
     flex: 1 0 auto;
   }
 
-
-
- 
-
 html {
     height: 100%;
     margin: 0;
-
 }
   
-
-
-
 .navbar-style {
     color: rgb(46, 58, 88); 
     box-shadow: 3px 1px;
@@ -48,8 +39,7 @@ li a {
 /* Note by Mouyad: Styling the logo on the upper left corner */
 .logo {
     height: 70px;
-    padding: 3px; 3px;
-
+    padding: 3px 3px;
 }
 
 .icon-bar {
@@ -60,7 +50,6 @@ li a {
     max-width: 75px;
     max-height: 150px;
 }
-
 
 /* Styling the background image */
   .bg {
@@ -79,7 +68,6 @@ li a {
   }
 
 
-
   h1 {
       color:whitesmoke;
   }
@@ -90,12 +78,7 @@ li a {
       text-shadow: 2px 2px 8px black;
   }
 
-  .footer {
-    padding-top: 60px;
-    flex-shrink: 0;
-  }
-
-.Worksample {
+ .Worksample {
     width: 100%;
     max-width: 200px;
     height: auto;   
@@ -140,11 +123,15 @@ li a {
     border-radius: 10px;
 }
 
-
 .footer {
     height: 50px;
+    color: black;
     margin-top: -50px;
     text-align: center;
+    padding-top: 60px;
+    flex-shrink: 0;
+    padding-top: 0; 
+    bottom: 0;
   }
 
 
